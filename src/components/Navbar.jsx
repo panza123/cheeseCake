@@ -45,7 +45,7 @@ export default function Navbar() {
             className="block m-10 cursor-pointer md:hidden z-20 "
             onClick={handleClick}
           >
-            {!nav ? <CiMenuFries size={50} /> : <IoMdClose size={50} />}
+            {!nav ? <CiMenuFries size={50} /> : <IoMdClose size={50} className="text-black" />}
           </div>
         </header>
 
