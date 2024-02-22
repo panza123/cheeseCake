@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inika:wght@400;700&display=swap');
+
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  scroll-behavior: smooth;
+}
+
+
+h2{
+  
+  font-family: "Inika", serif;
+}
+@layer components {
+  .btn1 {
+    @apply hidden md:block w-[100px] h-[43px] bg-transparent cursor-pointer 
+    rounded-[20px] border-2 border-[#523728] hover:bg-white text-[#523728];
+  }
+
+
+
+.btn {
+    @apply text-white hover:w-[100px] rounded-[10px] h-[43px] hover:bg-white hover:text-[#6F4436cc];
+  }
+
+  .btn2{
+    @apply w-[200px] h-[50px]
+     bg-white shadow-lg shadow-white rounded-[20px]  hover:bg-gray-200
+  }
+  .btn3{
+    @apply w-[250px] h-[50px]  rounded-[20px] max-sm:w-[300px]
+  }
+}
