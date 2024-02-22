@@ -10,7 +10,7 @@ function App() {
 
   return (
     <>
-    <main className="w-full h-screen overflow-x-hidden scroll-smooth bg-hero" style={{background:`url("/src/assets/chaseimg/chasecakebg.png)`}} >
+    <main className="w-full h-screen overflow-x-hidden scroll-smooth bg-hero" >
 <Navbar/>
 <Home/>
 <About/>
