@@ -78,7 +78,7 @@ export default function Navbar() {
             
             
               <button className="btn2 " onClick={CloseNav}>
-              <li> <a href="#menu">Menu</a></li>
+              <li> <a href="#contact">Contact</a></li>
               </button>
             
 
