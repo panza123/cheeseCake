@@ -4,7 +4,7 @@ import { CiMenuFries } from "react-icons/ci";
 import { IoMdClose } from "react-icons/io";
 
 export default function Navbar() {
-  const [nav, setNav] = useState(false);
+  const [nav, setNav] =useState(false);
 
   function handleClick() {
     setNav(!nav);
